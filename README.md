@@ -2,8 +2,12 @@
 
 CVPR 2020, [[pdf]](https://arxiv.org/pdf/2003.05653.pdf) [[arxiv]](https://arxiv.org/abs/2003.05653)
 
-by Tianyang Shi, Zhengxia Zou, Yi Yuan*, Changjie Fan
+by Jiangke Lin, Yi Yuan*, Tianjia Shao, Kun Zhou
 
-In this paper, we seek to reconstruct the 3D facial shapewith high fidelity texture from a single image, without theneed  to  capture  a  large-scale  face  texture  database.
+In this paper, we seek to reconstruct the 3D facial shape with high fidelity texture from a single image, without the need to capture a large-scale face texture database.
 
-![An overview of our method.](https://github.com/yiyuan1991/Face-to-Parameter-V2/blob/master/imgs/f2p-aaai.jpg)
+![An overview of our method.](https://github.com/yiyuan1991/3D-Face-GCNs/blob/master/imgs/overall.jpg)
+
+Comparison of our results with other methods.
+
+![Comparison.](https://github.com/yiyuan1991/3D-Face-GCNs/blob/master/imgs/comparison.jpg)
