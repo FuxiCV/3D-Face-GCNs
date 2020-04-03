@@ -1,11 +1,9 @@
-# Face-to-Parameter Translation for Game Character Auto-Creation
+# Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks
 
-AAAI 2020,  [[pdf]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ShiT.147.pdf)
+CVPR 2020, [[pdf]](https://arxiv.org/pdf/2003.05653.pdf) [[arxiv]](https://arxiv.org/abs/2003.05653)
 
 by Tianyang Shi, Zhengxia Zou, Yi Yuan*, Changjie Fan
 
-We propose a new method to generate in-game character of the players according to their input face photo. Our method is three magnitudes faster than the previous method ([Shi et al. 2019](https://github.com/yiyuan1991/Face-to-Parameter)) and shows better robustness (especially for pose changes).
+In this paper, we seek to reconstruct the 3D facial shapewith high fidelity texture from a single image, without theneed  to  capture  a  large-scale  face  texture  database.
 
 ![An overview of our method.](https://github.com/yiyuan1991/Face-to-Parameter-V2/blob/master/imgs/f2p-aaai.jpg)
-
-The algorithm has replaced the previous method and been applied in the game [Justice](https://n.163.com/) (One Of China’s Most Popular MMOs).
