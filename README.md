@@ -6,6 +6,8 @@ by Jiangke Lin, Yi Yuan*, Tianjia Shao, Kun Zhou
 
 In this paper, we seek to reconstruct the 3D facial shape with high fidelity texture from a single image, without the need to capture a large-scale face texture database.
 
+Source code will be released soon!
+
 ![An overview of our method.](https://github.com/yiyuan1991/3D-Face-GCNs/blob/master/imgs/overall.jpg)
 
 Comparison of our results with other methods.
