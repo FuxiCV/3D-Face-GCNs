@@ -39,10 +39,10 @@ We will also make some of our datasets for 3D face reconstruction public availab
 However, at present, you can try out our current automatic character creation method in the game Justice(逆水寒, https://n.163.com).
 
 #### Citation
-@inproceedings{lin2020towards,  
-  title={Towards high-fidelity 3D face reconstruction from in-the-wild images using graph convolutional networks},  
-  author={Lin, Jiangke and Yuan, Yi and Shao, Tianjia and Zhou, Kun},  
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},  
-  pages={5891--5900},  
-  year={2020}  
-}
+  @inproceedings{lin2020towards,  
+    title={Towards high-fidelity 3D face reconstruction from in-the-wild images using graph convolutional networks},  
+    author={Lin, Jiangke and Yuan, Yi and Shao, Tianjia and Zhou, Kun},  
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},  
+    pages={5891--5900},  
+    year={2020}  
+  }
