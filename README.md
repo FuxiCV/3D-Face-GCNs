@@ -2,7 +2,7 @@
 
 CVPR 2020, [[pdf]](https://arxiv.org/pdf/2003.05653.pdf) [[arxiv]](https://arxiv.org/abs/2003.05653)
 
-by Jiangke Lin, Yi Yuan*, Tianjia Shao, Kun Zhou
+by Jiangke Lin, [Yi Yuan*](https://yiyuan1991.github.io), [Tianjia Shao](https://tianjiashao.com), [Kun Zhou](http://kunzhou.net)
 
 In this paper, we seek to reconstruct the 3D facial shape with high fidelity texture from a single image, without the need to capture a large-scale face texture database.
 
