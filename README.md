@@ -21,10 +21,9 @@ The shapes and coarse textures are from https://github.com/microsoft/Deep3DFaceR
 Please refer to their project pages for the necessary files.
 
 #### 2. Prepare dataset
-As we mentioned in the paper, we use a face segmentation network to segment out the non-face areas. Here, we treat the segmentation result as alpha channel and store it in a `.png` file along with the face image.  
-For efficiency, we write all `.png` images into a binary file in advance. Please change the data folder in `create_bin.py` to yours.
+As we mentioned in the paper, we use a face segmentation network to segment out the non-face areas. Here, we treat the segmentation result as alpha channel and store it in a `.png` file along with the face image. More specifically, we acquire the face segmentation result by a face segmentation network, then store the image and segmentation results as a `.png` file, where the RGB channels store the image, and alpha channel stores the segmentation results. In the alpha channel, 0 means `non-skin region` and 255 represents `skin region`.  
+For efficiency, we then write all `.png` images into a binary file in advance. Please change the data folder in `create_bin.py` to yours.
 > python create_bin.py
-
 
 #### 3. Training
 It is worth mentioning that, our network involves the mesh sampling algorithm. We save the sampling-related parameters into `.npz` files in advance and load them before training to avoid meaningless repeat calculation.  
